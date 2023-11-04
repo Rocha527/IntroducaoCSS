@@ -1,0 +1,72 @@
+/* TREINAR EM https://flexboxfroggy.com/  */
+
+/* SELECIONAR ELEMENTO A SER USADO E ESTILIZAR DE ACORDO */
+/* p { 
+
+    font-family: sans-serif;
+    color: red;
+    font-size: 60px;
+} */
+
+/* SELEÇÃO DE SECTION DO CÓDIGO PARA ESTILIZAÇÃO */
+section div p, h1 {
+    font-family: sans-serif;
+    color:blue;
+    font-size:50px;
+}
+
+/* SOMENTE PARA ÚNICA SELEÇÃO
+
+    section div h1 { 
+    font-family: sans-serif;
+    color:brown;
+    font-size: 50;
+} 
+
+/*  DEFINIÇÃO DE CLASSE E ESTILIZAÇÃO DE CLASS */
+
+.azul {
+    color: rgb(55, 0, 252);
+}
+.verde-bg {
+    background:rgb(43, 235, 4);
+}
+.elegante {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+}
+
+/*  DEFINIÇÃO POR #ID */
+
+/* span#exemploId {
+    background-color: red;
+}
+*/
+
+/*  USAR SELEÇÃO POR ATRIBUTO */
+
+a {
+    color:blue;
+}
+/* Links internos começando com "#" */
+a[href^="#"] {
+    background-color: gold;
+}
+/* Links com "Example" em qualquer lugar da URL */
+a[href*="example"] {
+    background-color: silver;
+}
+/* Links com "insensitive" em qualquer lugar da URL, independente da capitalização */
+a[href*="Insensitive" i] {
+    color:cyan;
+}
+/* Links com final ".org" */
+a[href$=".org"] {
+    color: red;
+}
+
+/* COMO UTILIZAR TAGS 
+span {
+    background-color: pink;
+}
+*/
