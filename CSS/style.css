@@ -14,6 +14,11 @@ section div p, h1 {
     color:blue;
     font-size:50px;
 }
+section span {
+    font-family: sans-serif;
+    color:blue;
+    font-size: 60px;
+}
 
 /* SOMENTE PARA ÚNICA SELEÇÃO
 
